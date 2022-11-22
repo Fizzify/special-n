@@ -1,6 +1,10 @@
 {
   "name": "special-n",
   "version": "0.0.117",
+  "scripts": {
+    "start": "next start",
+    "build": "next build"
+  },
   "dependencies": {
     "next": "12.2.3",
     "react": "^18",
@@ -8,6 +12,7 @@
     "react-is": "^18"
   },
   "devDependencies": {
+    "@types/node": "^18.11.9",
     "@types/react": "^18",
     "autoprefixer": "^10.4.13",
     "bun-framework-next": "^12.2",
