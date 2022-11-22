@@ -22,6 +22,10 @@ const Home: NextPage = () => {
         <main className="flex flex-col items-center justify-center h-screen text-center">
           <img src="/black_rose.png" className="w-[100px] h-[100px]" />
           <h1 className="font-bold text-9xl">special n</h1>
+          <p className="mt-10">
+            Please use this when using my real name. Click either and it will go
+            to your clipboard.
+          </p>
           <div className="flex gap-2 mt-10">
             <button
               onClick={handleClick}
