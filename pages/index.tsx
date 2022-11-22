@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Home: NextPage = () => {
@@ -37,7 +38,17 @@ const Home: NextPage = () => {
               Ñ
             </button>
           </div>
-          <footer className="mt-10">Made by Fizzify</footer>
+          <footer className="mt-10">
+            Made by{" "}
+            <a
+              className="hover:text-neutral-400"
+              href="https://github.com/Fizzify"
+              target="_blank"
+            >
+              Fizzify
+            </a>{" "}
+            🖤
+          </footer>
         </main>
       </div>
     </>
