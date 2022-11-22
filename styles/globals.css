@@ -561,6 +561,18 @@ video {
   border-bottom-width: 4px;
 }
 
+.border-b-\[6px\] {
+  border-bottom-width: 6px;
+}
+
+.border-b-\[10px\] {
+  border-bottom-width: 10px;
+}
+
+.border-b-\[8px\] {
+  border-bottom-width: 8px;
+}
+
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));

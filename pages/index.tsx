@@ -25,13 +25,13 @@ const Home: NextPage = () => {
           <div className="flex gap-2 mt-10">
             <button
               onClick={handleClick}
-              className="px-8 py-6 text-4xl transition border border-b-4 border-white rounded-sm hover:bg-white hover:text-black active:opacity-20"
+              className="px-8 py-6 text-4xl transition border border-white rounded-sm border-b-[8px] hover:bg-white hover:text-black active:opacity-20"
             >
               ñ
             </button>
             <button
               onClick={handleClick}
-              className="px-8 py-6 text-4xl transition border border-b-4 border-white rounded-sm hover:bg-white hover:text-black active:opacity-20"
+              className="px-8 py-6 text-4xl transition border border-white rounded-sm border-b-[8px] hover:bg-white hover:text-black active:opacity-20"
             >
               Ñ
             </button>
