@@ -37,6 +37,7 @@ const Home: NextPage = () => {
               Ñ
             </button>
           </div>
+          <footer className="mt-10">Made by Fizzify</footer>
         </main>
       </div>
     </>
